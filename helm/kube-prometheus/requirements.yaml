@@ -47,8 +47,7 @@ dependencies:
 
   - name: exporter-node
     version: 0.1.7
-    #e2e-repository: file://../exporter-node
-    repository: https://s3-eu-west-1.amazonaws.com/coreos-charts/stable/
+    repository: https://kubernetes-charts.storage.googleapis.com/
     condition: deployExporterNode
 
   - name: grafana

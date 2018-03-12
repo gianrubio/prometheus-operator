@@ -22,7 +22,7 @@ charts = [
 {'source':'contrib/kube-prometheus/assets/prometheus/rules/kube-state-metrics.rules.yaml',
 'destination': 'helm/exporter-kube-state/'},
 {'source':'contrib/kube-prometheus/assets/prometheus/rules/node.rules.yaml',
-'destination': 'helm/exporter-node/'},
+'destination': 'helm/kube-prometheus/'},
 {'source':'contrib/kube-prometheus/assets/prometheus/rules/prometheus.rules.yaml', 
 'destination': 'helm/prometheus/'},
 {'source':'contrib/kube-prometheus/assets/prometheus/rules/etcd3.rules.yaml', 
